@@ -22,29 +22,7 @@ const Header = () => {
 
           <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
             <li>
-              <Link to="/login" className="nav-link px-2 text-secondary">
-                Home
-              </Link>
-            </li>
-            <li>
-              <a href="#" className="nav-link px-2 text-white">
-                Features
-              </a>
-            </li>
-            <li>
-              <a href="#" className="nav-link px-2 text-white">
-                Pricing
-              </a>
-            </li>
-            <li>
-              <a href="#" className="nav-link px-2 text-white">
-                FAQs
-              </a>
-            </li>
-            <li>
-              <a href="#" className="nav-link px-2 text-white">
-                About
-              </a>
+              <h3>MuseByte-Social Blogging Website</h3>
             </li>
           </ul>
 
