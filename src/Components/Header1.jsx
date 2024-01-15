@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header1 = () => {
   return (
     <header className="p-3 text-bg-dark">
       <div className="container">
@@ -63,13 +63,8 @@ const Header = () => {
           <div className="text-end">
             <Link to="/login">
               <button type="button" className="btn btn-outline-light me-2">
-                Login
+                Logout
               </button>{" "}
-            </Link>
-            <Link to="/signup">
-              <button type="button" className="btn btn-warning">
-                Sign-up
-              </button>
             </Link>
           </div>
         </div>
@@ -78,4 +73,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header1;
